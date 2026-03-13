@@ -1,7 +1,11 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: Cao Laboratory
+subtitle: Engineering macrophage phagocytosis for cancer immunotherapy
+description: The Cao Laboratory at Shanghai Jiao Tong University studies macrophage phagocytosis and cancer immunotherapy.
+
+url: "https://xucao-sjtu.github.io"
+baseurl: "/Cao-lab"
+
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
