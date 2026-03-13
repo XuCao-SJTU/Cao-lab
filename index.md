@@ -1,94 +1,43 @@
----
----
-
 # Lab Website Template
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+---
+title: Cao Laboratory
+---
 
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
+Cao Laboratory studies how macrophage phagocytosis can be reprogrammed and engineered to improve cancer immunotherapy.
+
+We combine immunology, chemical biology, and therapeutic engineering to understand how tumor microenvironments control macrophage function and to develop next-generation macrophage-targeted therapies at Shanghai Jiao Tong University.
 
 {% include section.html %}
 
-## Highlights
+## Research Highlights
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We investigate how tumor cells evade macrophage-mediated clearance and seek to identify new phagocytosis checkpoints that regulate antibody-dependent cellular phagocytosis.
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include button.html link="research" text="Explore our research" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+{% include feature.html image="images/photo.jpg" link="research" title="Phagocytosis Checkpoints" text=text %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We study how metabolic pathways shape macrophage phagocytic competence and how tumor microenvironments suppress macrophage effector function.
 
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include button.html link="projects" text="View our projects" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
+{% include feature.html image="images/photo.jpg" link="projects" title="Metabolic Control of Phagocytosis" flip=true style="bare" text=text %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We develop new macrophage-based therapeutic strategies, including engineered antibodies, CAR-M platforms, and immunomodulatory approaches for cancer therapy.
 
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include button.html link="team" text="Meet our team" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+{% include feature.html image="images/photo.jpg" link="team" title="Macrophage Engineering for Therapy" text=text %}
